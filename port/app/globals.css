@@ -41,8 +41,6 @@ body {
 /* ── Curseur custom masqué partout ── */
 *, a, button { cursor: none !important; }
 
-[role="switch"] { pointer-events: auto !important; }
-[role="switch"] * { pointer-events: auto !important; }
 /* ── Grain overlay sur toute la page ── */
 body::before {
   content: '';
